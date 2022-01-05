@@ -1,39 +1,91 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+    margin: 0;
 }
-.my-bio {
+nav {
+    text-align: right;
+    background-color: yellow;
+}
+.navigation {
+    padding: 10px;
+}
+.half-width {
     width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 30%;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 3%
+}
+span {
+    color: rgb(61, 30, 241);
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient( red, rgb(238, 238, 54));
+    background-image: linear-gradient(rgb(235, 220, 14), red);
     padding: 10px 20px;
-    color: rgb(5, 5, 5);
     border-radius: 5px;
+    font-weight: 900;
+    color: black;
 }
-#bold {
-    font-size: 50px;
-}
-h1{
-    color: red;
-}
-.flex {
-    display: flex;
-    background-image: url(images/Untitled-design.png);
-    background-repeat: no-repeat;
-
-}
-.my-photo {
-    width: 70%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 14%;
-
-}
-.my-photo img {
+section img {
     width: 100%;
+}
+.first-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-section {
+    padding-top: 100px;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 850px;
+}
+.Biography {
+    width: 50%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+#second-button {
+    text-decoration: none;
+    background-image: linear-gradient(yellow, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    color: black;
+}
+.third-section {
+    display: flex;
+    padding: 0% 5% 5% 5% ;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.fsd {
+    width: 50%;
+    padding-left: 5%;
+    margin: 30px 20px;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 10px;
+
+
+}
+.exp {
+    font-size: 50px;
+    padding-bottom: 0;
+}
+#last-one {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+
+}
+#last-two {
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+#foot {
+    text-align: center;
+
 }
